@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Constants module to access device-specific information.  The `Constants.deviceName` property sometimes returns an unexpected or empty string, even on devices where a device name is expected. This inconsistency can lead to unexpected behavior in applications that rely on this property for identifying or categorizing devices.
